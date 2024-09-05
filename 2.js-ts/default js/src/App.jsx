@@ -14,8 +14,7 @@ function UserCard({ name, age }) {
 
   return (
     <div>
-      <h1>2. 자바스크립트 - 타입스크립트 전환</h1>
-      <h2>User Information</h2>
+      <h1>User Information</h1>
       <p>Name: {newName}</p>
       <p>Age: {newAge}</p>
       <input
@@ -35,11 +34,3 @@ function UserCard({ name, age }) {
 }
 
 export default UserCard;
-
-/* 
-1. 타입스크립트 설치
-  npm install --save typescript @types/node @types/react @types/react-dom @types/jest
-2. tsconfig.json 파일 생성
-  npx tsc --init
-3. 파일 확장자 변경.js / .jsx -> .ts / .tsx 
-*/

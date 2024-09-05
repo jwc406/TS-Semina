@@ -46,6 +46,7 @@ function UserProfile() {
 
   return (
     <div>
+      <h1>3. API 호출, 타입 가드</h1>
       {user ? (
         <>
           <h1>{user.name}</h1>
